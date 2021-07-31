@@ -11,10 +11,10 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private val listNumber = mutableListOf<String>()
     private val listOperation = mutableListOf<String>()
-    private val OP_ADD = '+';
-    private val OP_MINUS = '-';
-    private val OP_MULTIPLY = '*';
-    private val OP_DIVIDE    = '/';
+    private val OP_ADD = '+'
+    private val OP_MINUS = '-'
+    private val OP_MULTIPLY = '*'
+    private val OP_DIVIDE = '/'
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
